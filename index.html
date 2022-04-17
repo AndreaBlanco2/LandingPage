@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet"/>
+    <script src="./js/landing.js" defer></script>
+    <title>Landing Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="banner-text">
+            <h1>Andrea Blanco</h1>
+            <p>Web Development</p>
+        </div>
+        <div class="btns">
+            <button class="see-more btn"><a href="https://www.gitshowcase.com/andreablanco2">See More</a></button> <!--Open portfolio-->
+            <button class="send-msg btn">Contact me!</button>
+        </div>
+        <div class="msg-container">
+            <div class="msg modal">
+                <form action="" class="form">
+                    <p class="title">Send Message</p>
+                    <div class="input-msg">                        
+                        <label for="name"><img src="./media/user.png" alt="user icom" class="pic"></label>
+                        <input type="text" placeholder="Name" name="name" required>
+                    </div>
+                    <div class="input-msg">
+                        <label for="e-mail"><img src="./media/mails.png" alt="Email icon" class="pic"></label>
+                        <input type="text" placeholder="e-mail" name="e-mail" required>
+                    </div>
+                    <div class="input-msg msgbody">                        
+                        <label for="messsage"><img src="./media/send.png" alt="message icon" class="pic"></label>
+                        <input type="text" placeholder="Tell me about your project!" name="message" required>
+                    </div>
+                    <button class="x-btn">X</button>
+                    <button type="submit" class="send-btn">Send</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
